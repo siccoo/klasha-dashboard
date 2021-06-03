@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from "../../images/users.svg";
+import Avatar from "../../images/user.svg";
 import Notification from "../../images/notification.svg";
 
 const Navbar = ({ sidebarOpen, openSidebar }) => {
@@ -13,8 +13,11 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
                 <span>Today, 19th October 2020</span>
             </div>
             <div className="navbar__right">
-                <a>
-                    <img />
+                <a href="#">
+                    <img width="30" src={Notification} alt="notification" />
+                </a>
+                <a href="#">
+                    <img width="30" src={Avatar} alt="avatar" />
                 </a>
             </div>
         </nav>
