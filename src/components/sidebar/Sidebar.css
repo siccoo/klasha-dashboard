@@ -25,11 +25,11 @@
     object-fit: contain;
 }
 
-.sidebar__title > div > h3 {
+/* .sidebar__title > div > h3 {
     font-size: 18px;
     font-style: italic;
     display: inline;
-}
+} */
 
 .sidebar__title > i {
     font-size: 18px;
@@ -58,10 +58,10 @@
     margin-top: 25px;
 }
 
-.active__menu__link {
+/* .active__menu__link {
     background: #F5F5F5;
     color: #2A2A2A;
-}
+} */
 
 .active__menu__link a {
     color: #2A2A2A;
