@@ -37,6 +37,24 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <img src={AnalyticsIcon} alt="analytics" />
                     <a href="">Analytics</a>
                 </div>
+
+                <h6>General</h6>
+                <div className="sidebar__link">
+                    <img src={SettingsIcon} alt="settings" />
+                    <a href="">Settings</a>
+                </div>
+                <div className="sidebar__link">
+                    <img src={TeamIcon} alt="team" />
+                    <a href="">Team</a>
+                </div>
+                <div className="sidebar__link">
+                    <img src={ContactIcon} alt="contact" />
+                    <a href="">Contact</a>
+                </div>
+                <div className="sidebar__link">
+                    <img src={LogoutIcon} alt="logout" />
+                    <a href="">Logout</a>
+                </div>
             </div> 
         </div>
     )
