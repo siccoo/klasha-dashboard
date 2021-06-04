@@ -23,37 +23,37 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 <h6>Main pages</h6>
                 <div className="sidebar__link active__menu__link">
                     <img src={DashboardIcon} alt="dashboard" />
-                    <a href="">Dashboard</a>
+                    <a href="/">Dashboard</a>
                 </div>
                 <div className="sidebar__link active__menu__link">
                     <img src={BalanceIcon} alt="balance" />
-                    <a href="">Balances</a>
+                    <a href="/" alt="">Balances</a>
                 </div>
                 <div className="sidebar__link">
                     <img src={CustomerIcon} alt="customer" />
-                    <a href="">Customers</a>
+                    <a href="/">Customers</a>
                 </div>
                 <div className="sidebar__link">
                     <img src={AnalyticsIcon} alt="analytics" />
-                    <a href="">Analytics</a>
+                    <a href="/">Analytics</a>
                 </div>
 
                 <h6>General</h6>
                 <div className="sidebar__link">
                     <img src={SettingsIcon} alt="settings" />
-                    <a href="">Settings</a>
+                    <a href="/">Settings</a>
                 </div>
                 <div className="sidebar__link">
                     <img src={TeamIcon} alt="team" />
-                    <a href="">Team</a>
+                    <a href="/">Team</a>
                 </div>
                 <div className="sidebar__link">
                     <img src={ContactIcon} alt="contact" />
-                    <a href="">Contact</a>
+                    <a href="/">Contact</a>
                 </div>
                 <div className="sidebar__link">
                     <img src={LogoutIcon} alt="logout" />
-                    <a href="">Logout</a>
+                    <a href="/">Logout</a>
                 </div>
             </div> 
         </div>

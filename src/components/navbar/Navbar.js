@@ -15,10 +15,10 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
                 <span>Today, 19th October 2020</span>
             </div>
             <div className="navbar__right">
-                <a href="#">
+                <a href="/">
                     <img width="30" src={Notification} alt="notification" />
                 </a>
-                <a href="#">
+                <a href="/">
                     <img width="30" src={Avatar} alt="avatar" />
                 </a>
             </div>
