@@ -22,37 +22,37 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
             <div className="sidebar__menu">
                 <h6>Main pages</h6>
                 <div className="sidebar__link active__menu__link">
-                    <img src={DashboardIcon} alt="dashboard" />
+                    <img src={DashboardIcon} alt="dashboard" width="12" />
                     <a href="/">Dashboard</a>
                 </div>
                 <div className="sidebar__link active__menu__link">
-                    <img src={BalanceIcon} alt="balance" />
+                    <img src={BalanceIcon} alt="balance" width="12" />
                     <a href="/" alt="">Balances</a>
                 </div>
                 <div className="sidebar__link">
-                    <img src={CustomerIcon} alt="customer" />
+                    <img src={CustomerIcon} alt="customer" width="12" />
                     <a href="/">Customers</a>
                 </div>
                 <div className="sidebar__link">
-                    <img src={AnalyticsIcon} alt="analytics" />
+                    <img src={AnalyticsIcon} alt="analytics" width="12" />
                     <a href="/">Analytics</a>
                 </div>
 
                 <h6>General</h6>
                 <div className="sidebar__link">
-                    <img src={SettingsIcon} alt="settings" />
+                    <img src={SettingsIcon} alt="settings" width="12" />
                     <a href="/">Settings</a>
                 </div>
                 <div className="sidebar__link">
-                    <img src={TeamIcon} alt="team" />
+                    <img src={TeamIcon} alt="team" width="12" />
                     <a href="/">Team</a>
                 </div>
                 <div className="sidebar__link">
-                    <img src={ContactIcon} alt="contact" />
+                    <img src={ContactIcon} alt="contact" width="12" />
                     <a href="/">Contact</a>
                 </div>
                 <div className="sidebar__link">
-                    <img src={LogoutIcon} alt="logout" />
+                    <img src={LogoutIcon} alt="logout" width="12" />
                     <a href="/">Logout</a>
                 </div>
             </div> 

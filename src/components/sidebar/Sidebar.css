@@ -57,3 +57,23 @@
     margin-bottom: 10px;
     margin-top: 25px;
 }
+
+.active__menu__link {
+    background: #F5F5F5;
+    color: #2A2A2A;
+}
+
+.active__menu__link a {
+    color: #2A2A2A;
+}
+
+.sidebar__link > a {
+    text-decoration: none;
+    color: #A6ABB2;
+    font-weight: normal;
+}
+
+.sidebar__link > img {
+    margin-right: 10px;
+    font-size: 5px;
+}
