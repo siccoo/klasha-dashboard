@@ -1,5 +1,13 @@
 import "./Sidebar.css";
 import KlashaLogo from "../../images/logo.svg";
+import DashboardIcon from "../../images/dashboard.svg";
+import BalanceIcon from "../../images/balances.svg";
+import CustomerIcon from "../../images/customers.svg";
+import AnalyticsIcon from "../../images/analytics.svg";
+import SettingsIcon from "../../images/settings.svg";
+import TeamIcon from "../../images/team.svg";
+import ContactIcon from "../../images/contact.svg";
+import LogoutIcon from "../../images/logout.svg";
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     return (
@@ -10,6 +18,13 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <h3>Klasha</h3>
                 </div>
                 <i className="fa fa-times" id="sidebarIcon" onClick={() => closeSidebar()}></i>
+            </div>
+            <div className="sidebar__menu">
+                <h6>Main pages</h6>
+                <div className="sidebar__link active__menu__link">
+                    <i className="fa fa-home"></i>
+                    <a href=""></a>
+                </div>
             </div> 
         </div>
     )
