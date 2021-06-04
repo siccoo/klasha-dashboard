@@ -2,6 +2,8 @@ import React from 'react';
 import Avatar from "../../images/user.svg";
 import Notification from "../../images/notification.svg";
 
+import "./Navbar.css";
+
 const Navbar = ({ sidebarOpen, openSidebar }) => {
     return (
         <nav className="navbar">
