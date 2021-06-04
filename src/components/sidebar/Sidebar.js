@@ -22,8 +22,20 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
             <div className="sidebar__menu">
                 <h6>Main pages</h6>
                 <div className="sidebar__link active__menu__link">
-                    <i className="fa fa-home"></i>
-                    <a href=""></a>
+                    <img src={DashboardIcon} alt="dashboard" />
+                    <a href="">Dashboard</a>
+                </div>
+                <div className="sidebar__link active__menu__link">
+                    <img src={BalanceIcon} alt="balance" />
+                    <a href="">Balances</a>
+                </div>
+                <div className="sidebar__link">
+                    <img src={CustomerIcon} alt="customer" />
+                    <a href="">Customers</a>
+                </div>
+                <div className="sidebar__link">
+                    <img src={AnalyticsIcon} alt="analytics" />
+                    <a href="">Analytics</a>
                 </div>
             </div> 
         </div>
