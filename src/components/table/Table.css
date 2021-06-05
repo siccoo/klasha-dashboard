@@ -1,8 +1,12 @@
 /******* TABLE *******/
 
+table {
+  width: 100%;
+}
+
 .table__responsive {
     border: none !important;
-  }
+}
   
   .table td, .table th {
     padding: .75rem;

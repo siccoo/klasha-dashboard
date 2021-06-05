@@ -23,13 +23,11 @@ main {
 } */
 
 .one {
-
+    width: 300px;
 }
 
 .two {
     width: 200px;
     background: #F5F5F5;
-    border: 1px solid #EBEBEB;
-    box-sizing: border-box;
     border-radius: 10px;
 }
