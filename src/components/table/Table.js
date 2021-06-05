@@ -26,6 +26,48 @@ const Table = () => {
                         <td>
                             $1,200
                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>KLA12578DHQ</p>
+                        </td>
+                        <td>
+                            Vel pellentesque ornare
+                        </td>
+                        <td>
+                            <span className="green">25th November, 2020</span>
+                        </td>
+                        <td>
+                            $1,200
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>KLA12578DHQ</p>
+                        </td>
+                        <td>
+                            Vel pellentesque ornare
+                        </td>
+                        <td>
+                            <span className="green">25th November, 2020</span>
+                        </td>
+                        <td>
+                            $1,200
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>KLA12578DHQ</p>
+                        </td>
+                        <td>
+                            Vel pellentesque ornare
+                        </td>
+                        <td>
+                            <span className="green">25th November, 2020</span>
+                        </td>
+                        <td>
+                            $1,200
+                        </td>
                     </tr>   
                 </tbody>
             </table>
