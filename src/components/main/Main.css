@@ -31,3 +31,11 @@ main {
     background: #F5F5F5;
     border-radius: 10px;
 }
+
+.one p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2C665D;
+}
