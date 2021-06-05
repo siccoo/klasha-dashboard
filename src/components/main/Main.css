@@ -1,0 +1,35 @@
+main {
+    grid-area: main;
+    overflow-y: auto;
+}
+
+.main__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    margin: 20px 0;
+    width: 500px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    padding: 20px;
+} */
+
+.one {
+
+}
+
+.two {
+    width: 200px;
+    background: #F5F5F5;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

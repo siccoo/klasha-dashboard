@@ -4,7 +4,7 @@ import Table from "../table/Table";
 const Main = () => {
     return (
         <main>
-            <div className="main__cards">
+            <div className="main__card">
                 <div className="card one">
                     <div>
                         <p>Total account balance</p>
@@ -29,7 +29,9 @@ const Main = () => {
                     <h3>$5,332.18</h3>
                 </div>
             </div>
-            <Table/>
+            <div className="table">
+                <Table />
+            </div>
         </main>
     )
 }
