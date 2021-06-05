@@ -21,6 +21,13 @@ const Main = () => {
                     <h3>$5,332.18</h3>
                     <p>1 USD = 381.97 NGN</p>
                 </div>
+                <div className="card two">
+                    <div>
+                        <p>Funds on hold</p>
+                    </div>
+                    <hr/>
+                    <h3>$5,332.18</h3>
+                </div>
             </div>
             <Table/>
         </main>

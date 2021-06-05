@@ -17,7 +17,6 @@ const App = () => {
   return (
     <div className="container">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
-      {/* <h1>React Dashboard</h1> */}
       <Sidebar />
       <Main />
     </div>
