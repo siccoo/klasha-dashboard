@@ -1,4 +1,5 @@
 import "./Main.css";
+import Table from "../table/Table";
 
 const Main = () => {
     return (
@@ -16,8 +17,12 @@ const Main = () => {
                             </select>
                         </form>
                     </div>
+                    <hr/>
+                    <h3>$5,332.18</h3>
+                    <p>1 USD = 381.97 NGN</p>
                 </div>
             </div>
+            <Table/>
         </main>
     )
 }
