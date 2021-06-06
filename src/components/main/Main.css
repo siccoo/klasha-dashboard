@@ -43,7 +43,7 @@ main {
 }
 
 .twin {
-    display: inline-block;
+    display: flex;
 }
 
 .twin form, .twin p {
