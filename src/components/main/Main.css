@@ -24,12 +24,14 @@ main {
 
 .one {
     width: 300px;
+    padding: 10px;
 }
 
 .two {
     width: 200px;
     background: #F5F5F5;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .one p {
@@ -38,4 +40,14 @@ main {
     font-size: 14px;
     line-height: 17px;
     color: #2C665D;
+}
+
+.twin {
+    display: inline-block;
+}
+
+.twin select, .twin p {
+    display: inline;
+    vertical-align: top;
+    line-height: 8px;
 }

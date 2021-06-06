@@ -6,7 +6,7 @@ const Main = () => {
         <main>
             <div className="main__card">
                 <div className="card one">
-                    <div>
+                    <div className="twin">
                         <p>Total account balance</p>
                         <form action="#">
                             <select name="currency" id="currency">
